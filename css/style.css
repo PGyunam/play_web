@@ -170,3 +170,20 @@ hr {
 .vertical-top{
     vertical-align: middle;
 }
+.btn{
+    background-color: #5a5a5a;
+    color: white;
+    border: 0;
+    padding: 15px 10px;
+}
+.btn:hover{
+    background-color: black;
+}
+.btn_browse{
+    
+}
+.user_avatar{
+    position: absolute;
+    padding: ;
+    
+}
