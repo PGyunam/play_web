@@ -9,9 +9,107 @@
     <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <ul>
+            <div class="d-flex p-13">
+                <li>
+                    <a href="#">로그인</a>
+                </li>
+                <li>
+                    <a href="#">회원가입</a>
+                </li>
+                <li>
+                    <a href="#">장바구니</a>
+                </li>
+                <li>
+                    <a href="#">주문조회</a>
+                </li>
+            </div>
+        </ul>
+        <div class="text-center"><img src="images/paly-logo.png" alt="커플레이 로고"></div>
+            <nav class="d-flex p-14">
+                <div class="d-flex">
+                    <li>SHOPPING</li>
+                    <li>SALES</li>
+                    <li>EVENT</li>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="h1-p">
+                <h1 class="text-center">JOIN</h1>
+                <p class="p-16 text-center">회원가입</p>
+            </div>
+            <form autocomplete="off" id="signup_form">
+            <fieldset>
+                <legend class="screen_out">가입구분</legend>
+                <h3>가입구분</h3>
+                <table>
+                    <tr>
+                        <th>회원구분</th>
+                        <td>
+                            <label>
+                                <input type="radio" name="member_type1" checked value="0">개인회원
+                            </label>
+                            <label>
+                                <input type="radio" name="member_type2" value="1">사업자회원
+                            </label>
+                        </td>
+                    
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend class="screen_out">기본정보</legend>
+                <table>
+                    <tr>
+                        <th>아이디</th>
+                        <td><input type="user_id" name="user_id" id="user_id"></td>
+                    </tr>
+                    <tr>
+                        <th>비밀번호</th>
+                        <td><input type="user_pw" name="user_pw" id="user_pw"></td>
+                    </tr>
+                    <tr>
+                        <th>이름</th>
+                        <td><input type="name" name="user_nm" id="user_nm"></td>
+                    </tr>
+                    <tr>
+                        <th>연락처</th>
+                        <td><label for="user_ph" id="user_ph">
+                            <select name="first_digit" id="first_digit">
+                                <option>==국번==</option>
+                                <option value="010">010</option>
+                                <option value="02">02</option>
+                                <option value="061">061</option>
+                                <option value="062">062</option>
+                                <option value="064">064</option>
+                            </select>
+                            <input type="tel" name="second_digit" maxlength="4">
+                            <input type="tel" name="third_digit" maxlength="4">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label>SMS 수신여부</th></label>
+                        <td><input type="checkbox" name="user_sms" id="user_sms">
+                            <label for="user_sms">수신함</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>이메일</th>
+                        <td><input type="email" name="user_email" id="user_email"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="user_avbatar">아바타 사진</label></th>
+                        <td><input type="file" name="file" id="file"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
     
 </body>
 </html>
