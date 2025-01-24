@@ -130,3 +130,43 @@ body {
 hr {
     color: black;
 }
+.header-links{
+    
+}
+.header-links li{
+    padding: 10px 5px;
+}
+.herder-links li:hover{
+    color: rgb(0, 12, 59);
+}
+.logo{
+    width: 88px;
+    height: 100px;
+    margin: 0px auto;
+}
+.logo img{
+    max-width: 100%;
+}
+.logo p{
+    text-align: center;
+    font-weight: border;
+}
+.gnb{
+    display: flex;
+    justify-content: center;
+}
+#gnb li{
+    border: 1px solid #ccc;
+    font-size: .7rem;
+    padding: 10px 15px;
+}
+#gnb li a {
+    text-transform: uppercase;
+}
+#gnb li:hover{
+    background-color: blue;
+    color: white;
+}
+.vertical-top{
+    vertical-align: middle;
+}
